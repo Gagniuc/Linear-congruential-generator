@@ -8,9 +8,9 @@ X[n+1] = (a × X[n] + c) mod m
 
 Where <i>X<sub>1</sub></i> is an integer seed, <i>n</i> indicates the total number of terms in the sequence, <i>m</i> is the modulus, <i>a</i> is the multiplier, and <i>c</i> is the increment. The pattern of such a function shows a characteristic distribution for long numerical sequences that exceed the period (the cycle of repetition). The range of numbers of the above function is between 0 and <i>m</i>−1, with a uniform distribution of integers. The length of a period can be controlled by setting the value of <i>m</i>. However, a narrow portion over this sequence shows a small piece of the wider pattern, thus simulating randomness without showing the real distribution derived from the initial seed (<i>X<sub>1</sub></i>). This subject of pseudo-random numbers is related to a philosophical discussion from the book entitled <i>Algorithms in Bioinformatics: Theory and Implementation</i>. Note that the construction and theory behind the chart of this application can be found [here](https://github.com/Gagniuc/World-smallest-js-chart-v1.0).
 
-Live demo: https://gagniuc.github.io/Linear-congruential-generator/
+**Live demo**: https://gagniuc.github.io/Linear-congruential-generator/
 
-<kbd><img src="https://github.com/Gagniuc/Linear-congruential-generator/blob/main/%5BG%5D%20Linear%20congruential%20generator.png" /></kbd>
+<kbd><img src="https://github.com/Gagniuc/Linear-congruential-generator/blob/main/img/Linear%20congruential%20generator.png?raw=true" /></kbd>
 
 # References
 
